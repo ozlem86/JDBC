@@ -147,7 +147,6 @@ public class JdbcUtils {
     // ExecuteUpdate methodu
     public static int executeUpdate(String query){
         int guncellenenSatirSayisi;
-
         try {
             guncellenenSatirSayisi=statement.executeUpdate(query);
         } catch (SQLException e) {
